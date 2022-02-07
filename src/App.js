@@ -5,8 +5,8 @@ import TodoItemList from './components/TodoItemList';
 
 
 class App extends Component {
-
-  id = 3 // 이미 0,1,2 가 존재하므로 3으로 설정
+  //깃허브에 올려놓기
+  id = 3 // 이미0,1,2 가 존재하므로 3으로 
 
   state = {
     input: '',
@@ -29,7 +29,7 @@ class App extends Component {
       input: '', // 인풋 비우고
       // concat 을 사용하여 배열에 추가함
       todos: todos.concat({
-        id: this.id++함
+        id: this.id++,
         text: input,
         checked: false
       })
